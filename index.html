@@ -1,0 +1,57 @@
+---
+layout: index
+title: Home
+permalink: /
+---
+
+<div id="service">
+    <div class="container">
+        <div class="row centered">
+           <div class="col-md-4">
+                <i class="fa fa-archive"></i>
+                <h4>Subjects</h4>
+                <p>We are glad to host guests with many creative interests. For everyone to easily be part of our activities, we run projects in Art, Technology, Permaculture, Travel, Health, and Communication.</p>
+                <p><br/><a href="#" class="btn btn-theme">View Subjects</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-file-text"></i>
+                <h4>Projects</h4>
+                <p>All guests can join a project. This gives an ability to collaborate with the members and help build a shared vision. Every project schedules events to engage the community and makes this possible.</p>
+                <p><br/><a href="#" class="btn btn-theme">View Projects</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-check-square-o"></i>
+                <h4>Events</h4>
+                <p>For a center of inspiration to function, we invite guests and members to be part of workshops, discussions, celebrations and missions. These events inspire us to be creative together and collaborate in various ways.</p>
+                <p><br/><a href="#" class="btn btn-theme">View Events</a></p>
+            </div>		 				
+        </div>
+    </div><! --/container -->
+</div><! --/service -->
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-1">
+            <h4>More About Our Agency.</h4>
+            <p>{{ site.about }}</p>
+            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
+        </div>
+
+        <div class="col-lg-3">
+            <h4>Frequently Asked</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['question'] %} 
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            {% endfor %}
+        </div>
+
+        <div class="col-lg-3">
+            <h4>Latest News</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['blog'] limit:5 %} 
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+            {% endfor %} 
+        </div>
+
+    </div><! --/row -->
+</div><! --/container -->
