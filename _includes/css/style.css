@@ -8,14 +8,26 @@
 	URL: http://alvarez.is
 	
 ################################################################# */ 
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
+@font-face {
+    font-family: amadeus;
+    src: url(../fonts/amadeus.ttf);
+}
 
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
+
+h1{
+    font-family: amadeus;
+}
+h3,h4,h5,p{
+font-family: cursive;
+}
+h1{
+	font-size: 70px;
+}
 	* { 
 		margin: 0;
 		padding: 0px;
@@ -33,19 +45,12 @@ body {
 	margin: 0; 
 	height: 100%; 
 	color: {{ site.colors.secondary }};
-	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	}
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-}
 
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
-	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 14px; 
 	line-height: 24px;
@@ -100,7 +105,6 @@ a:focus {
 }
 
 .navbar-brand {
-	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
 }
 
@@ -469,7 +473,6 @@ csmall {
 	}
 	
 .popular-posts li em {
-	font-family: 'Lato', sans-serif;
 	font-size: 12px;
 	color: #ededed
 	}
