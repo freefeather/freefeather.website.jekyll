@@ -10,17 +10,42 @@
 ################################################################# */ 
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
-@font-face {
-    font-family: amadeus;
-    src: url(../fonts/Amadeus.ttf);
+@import url(http://fonts.googleapis.com/css?family=Henny+Penny);
+
+/*	################################################################
+	LABEL
+################################################################# */
+
+.r_label{
+	text-align: left;
+	white-space: normal;
+	display: inline-block;
+	padding: 10px;
+}
+.r_label p{
+	display: table;
+}
+.r_label i{
+	float: left;
+margin: 10px;
+}
+.r_label .btn{
+	float: right;
 }
 
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
 
-h1{
-    font-family: amadeus;
+
+h1, h2{
+    font-family: 'Henny Penny';
+}
+h2{
+	font-size: 50px;
+}
+h4{
+	line-height: 30px;
 }
 h3,h4,h5,p{
 font-family: cursive;
@@ -50,12 +75,11 @@ body {
 
 p { 
 	padding: 0; 
-	margin-bottom: 12px; 
+	margin: 0; 
 	font-weight: 400;
 	font-size: 14px; 
 	line-height: 24px;
 	color: {{ site.colors.secondary }}; 
-	margin-top: 10px; 
 }
 
 img {
@@ -64,7 +88,8 @@ img {
 }
 
 a { 
-    color:{{ site.colors.link }};
+    color: {{ site.colors.link }};
+font-weight: 600;
     padding: 0;
 	margin: 0;
 	text-decoration: none; 
@@ -143,8 +168,8 @@ a:focus {
 }
 
 .btn-theme {
-  color: #333;
-  background-color: {{ site.colors.secondary }};
+  color: #fff;
+  background-color: transparent;
   border-color: {{ site.colors.secondary }};
   margin: 4px;
 }
@@ -154,7 +179,7 @@ a:focus {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color: {{ site.colors.primary }};
+  background-color: rgba(66, 139, 202, 0.49);
   border-color: {{ site.colors.primary }};
 }
 
@@ -230,8 +255,8 @@ border-bottom: solid white 1px;
 }
 
 #headerwrap h1 {
+	margin-top: 60px;
 	color: white;
-	margin-bottom: 25px;
 }
 
 #headerwrap .img-responsive {
@@ -239,33 +264,53 @@ border-bottom: solid white 1px;
 }
 
 .fa-archive{
-	background: rgb(224, 33, 33);
+	background: rgb(219, 117, 0);
 }
 
 .fa-file-text{
-background: rgb(0, 178, 43);
+	background: rgb(0, 113, 182);
 }
 
 .fa-check-square-o{
-	background: rgb(255, 136, 0);
+background: rgb(0, 178, 43);
+}
+
+.fa-comments-o{
+	background: rgb(0, 182, 182);
+}
+
+.fa-gears{
+	background: rgb(195, 136, 58);
+}
+.fa-flag{
+	background: rgb(134, 47, 194);
+}
+
+.fa-users{
+	background: rgb(224, 33, 33);
+}
+
+.fa-music{
+	background: rgb(219, 63, 63);
 }
 
 
 /* Services Wrap */
-#service {
+.service {
 	margin-top: 20px;
-	margin-bottom: 80px;
 	border-bottom: solid white 1px;
 padding-bottom: 30px;
 }
 
-#service i {
+.service i {
 	width: 90px;
 	height: 90px;
 	color: #fff;
 	font-size: 60px;
 	padding: 15px;
 	border-radius: 100%;
+	text-align: center;
+	line-height: 63px;
 }
 
 /* Portfolio Wrap */

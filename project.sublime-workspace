@@ -3,6 +3,10 @@
 	{
 		"selected_items":
 		[
+			[
+				"text",
+				"text-align"
+			]
 		]
 	},
 	"buffers":
@@ -27,7 +31,39 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2555,
+				"buffer_size": 1046,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/index.html",
+			"settings":
+			{
+				"buffer_size": 181,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/recipe.html",
+			"settings":
+			{
+				"buffer_size": 2471,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/activities.html",
+			"settings":
+			{
+				"buffer_size": 2475,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/head.html",
+			"settings":
+			{
+				"buffer_size": 1390,
 				"line_ending": "Unix"
 			}
 		},
@@ -35,7 +71,7 @@
 			"file": "_includes/header.html",
 			"settings":
 			{
-				"buffer_size": 938,
+				"buffer_size": 1362,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,15 +79,7 @@
 			"file": "_includes/css/style.css",
 			"settings":
 			{
-				"buffer_size": 8655,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/fonts/fontawesome-webfont.ttf",
-			"settings":
-			{
-				"buffer_size": 196567,
+				"buffer_size": 9025,
 				"line_ending": "Unix"
 			}
 		},
@@ -92,9 +120,13 @@
 	"build_system": "Packages/User/Jekyll.sublime-build",
 	"command_palette":
 	{
-		"height": 310.0,
+		"height": 110.0,
 		"selected_items":
 		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
 			[
 				"jeky",
 				"Jekyll: Insert current date"
@@ -106,10 +138,6 @@
 			[
 				"jek",
 				"Jekyll: Insert current date"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"insa",
@@ -124,7 +152,7 @@
 				"Shell Command"
 			]
 		],
-		"width": 386.0
+		"width": 498.0
 	},
 	"console":
 	{
@@ -147,16 +175,22 @@
 	"expanded_folders":
 	[
 		"/C/Users/Raphael Varonos/Documents/Github/Free Feather",
+		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_includes",
 		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/assets",
 		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/assets/fonts"
 	],
 	"file_history":
 	[
-		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_layouts/style.css",
-		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_includes/css/style.css",
+		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_layouts/contact.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_layouts/about.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_posts/blog/2014-04-25-logo-design-contest-starts-now.markdown",
 		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_includes/head.html",
 		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_includes/header.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_layouts/index.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_posts/event/opening-free-feather.md",
 		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/index.html",
+		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_layouts/style.css",
+		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_includes/css/style.css",
 		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_includes/nav.html",
 		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/news.html",
 		"/C/Users/Raphael Varonos/Documents/Github/Free Feather/_includes/wrap.html",
@@ -241,6 +275,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"class=\"btn btn-theme\"",
+			"<p><a",
+			"label",
+			"col-md-6",
 			"p>",
 			"font-famil",
 			"h1",
@@ -301,7 +339,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -323,13 +361,13 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -351,7 +389,37 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -361,25 +429,133 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "index.html",
+					"buffer": 3,
+					"file": "_layouts/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2555,
+						"buffer_size": 181,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1406,
-								1505
+								123,
+								123
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_includes/recipe.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1310,
+								1310
+							],
+							[
+								1851,
+								1851
+							],
+							[
+								2339,
+								2339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 298.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_includes/activities.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								886,
+								886
+							],
+							[
+								1314,
+								1314
+							],
+							[
+								1855,
+								1855
+							],
+							[
+								2343,
+								2343
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 298.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_includes/head.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -387,52 +563,55 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 7,
 					"file": "_includes/header.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 938,
+						"buffer_size": 1362,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								938,
-								938
+								1223,
+								1223
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage"
+							"spell_check": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 8,
 					"file": "_includes/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8655,
+						"buffer_size": 9025,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2730,
-								2730
+								1762,
+								1604
 							]
 						],
 						"settings":
@@ -441,42 +620,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1701.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "assets/fonts/fontawesome-webfont.ttf",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 196567,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								479,
-								479
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1393.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "_layouts/sessions.html",
 					"semi_transient": false,
 					"settings":
@@ -494,17 +645,17 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 10,
 					"file": "_includes/sessions.html",
 					"semi_transient": false,
 					"settings":
@@ -522,7 +673,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -534,7 +685,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 11,
 					"file": "_includes/nav.html",
 					"semi_transient": false,
 					"settings":
@@ -552,7 +703,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -560,11 +711,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 12,
 					"file": "/C/Users/Raphael Varonos/AppData/Roaming/Sublime Text 3/Packages/User/Jekyll.sublime-build",
 					"semi_transient": false,
 					"settings":
@@ -588,7 +739,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 12,
 					"type": "text"
 				}
 			]
@@ -645,20 +796,36 @@
 		"selected_items":
 		[
 			[
-				"sty",
-				"_includes\\css\\style.css"
+				"",
+				"_includes\\header.html"
 			],
 			[
-				"",
+				"head",
+				"_includes\\header.html"
+			],
+			[
+				"layouts/in",
+				"_layouts\\index.html"
+			],
+			[
+				"hea",
+				"_includes\\header.html"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"he",
+				"_includes\\header.html"
+			],
+			[
+				"sty",
 				"_includes\\css\\style.css"
 			],
 			[
 				"styl",
 				"_includes\\css\\style.css"
-			],
-			[
-				"head",
-				"_includes\\header.html"
 			],
 			[
 				"na",
