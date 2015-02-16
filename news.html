@@ -1,14 +1,9 @@
 ---
-layout: blog
+layout: sidebar
 title: News
 permalink: /news/
 ---
 
-<div class="container mtb">
-    <div class="row">
-
-        <! -- BLOG POSTS LIST -->
-        <div class="col-lg-8">
 
             {% for post in site.categories['blog'] %}
                 <! -- Blog Post -->
@@ -24,9 +19,3 @@ permalink: /news/
                 <div class="spacing"></div>
             {% endfor %}
 
-        </div><! --/col-lg-8 -->
-
-        {% include sidebar.html %}
-
-    </div><! --/row -->
-</div><! --/container -->
